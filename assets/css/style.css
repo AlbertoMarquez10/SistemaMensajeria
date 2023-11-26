@@ -3,8 +3,12 @@
     padding: 0;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .contenedor{
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
 }
 
 .mensajes{
@@ -32,7 +36,6 @@
 .avatar{
     display: flex;
     width: 75%;
-    background-color: aquamarine;
     
 }
 .avatar img, .avatarContacto img{
@@ -67,7 +70,6 @@
 .pizarra{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     width: 100vw;
     align-items: center;
     justify-content: center;
